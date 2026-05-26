@@ -5,5 +5,6 @@ public class Main2 {
         HealingPotion potion = new HealingPotion();
         potion.displayInfo(player);
         potion.heal(player);
+        System.out.println("プレイヤーのHP: " + player.hp);
     }
 }
