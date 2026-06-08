@@ -10,8 +10,12 @@ public class BankAccount {
     }
 
     public void deposit(int amount) {
+        if (amount > 0) {
             balance += amount;
             System.out.println(amount + "円入金しました");
+        } else {
+            System.out.println("無効な金額です。入金額は正の数でなければなりません。");
+        }
     }
 
     public void withdraw(int amount) {
