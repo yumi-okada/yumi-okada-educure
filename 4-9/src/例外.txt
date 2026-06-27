@@ -1,7 +1,5 @@
 【起こりうる例外】
 
-【1. 起こりうる例外】
-
 1. addStudentメソッド
 ・配列がいっぱいの状態で学生を追加すると、ArrayIndexOutOfBoundsExceptionが発生する。
 
