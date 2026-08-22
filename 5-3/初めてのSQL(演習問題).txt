@@ -30,6 +30,6 @@ WHERE title = 'SQL入門';
 
 <問題5>
 SELECT * FROM books
-WHERE publication_year > 2000
+WHERE publication_year >= 2000
 AND genre = '小説'
 ORDER BY publication_year DESC;
